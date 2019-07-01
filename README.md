@@ -23,7 +23,7 @@ private volatile object threadLocker = new object();
 
 在写文件的时候添加threadLocker即可
 
-![QQ截图20190701201155](.\Images\QQ截图20190701201155.png)
+![QQ截图20190701201155](https://github.com/onelei/ThreadFileWriter/blob/master/Images/QQ截图20190701201155.png)
 
 同理在读文件，关闭文件总之针对文件操作的地方添加锁即可。
 
@@ -33,8 +33,8 @@ private volatile object threadLocker = new object();
 
 打开并运行“ThreadFileWriter.unity”场景，在Console里面看到如下log信息，即表示示例运行成功。
 
-![QQ截图20190701195542](.\Images\QQ截图20190701195542.png)
+![QQ截图20190701195542](https://github.com/onelei/ThreadFileWriter/blob/master/Images/QQ截图20190701195542.png)
 
 我们在Assets同目录下发现创建了两个文件“Log.txt”和“Test.txt”，里面写入了部分log信息。
 
-![QQ截图20190614202048](.\Images\QQ截图20190614202048.png)
+![QQ截图20190614202048](https://github.com/onelei/ThreadFileWriter/blob/master/Images/QQ截图20190614202048.png)
